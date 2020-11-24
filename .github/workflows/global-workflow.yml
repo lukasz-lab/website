@@ -1,0 +1,18 @@
+name: Global workflow to rule all other workflows
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+
+  replicate_changes:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: derberg/global-actions-support@b41d22a230b6a189ec638bd2dcf0d874c0ef4dea
+        with:
+          github_token: ${{ secrets.CUSTOM_TOKEN }}
+          files_to_ignore: global-workflow.yml

@@ -5,6 +5,6 @@
     "@lukasz/moron": "^0.2.0"
   },
   "devDependencies": {
-    "@lukasz/simon": "^0.2.0",
+    "@lukasz/simon": "^0.2.0"
   }
 }

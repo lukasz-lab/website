@@ -1,0 +1,10 @@
+{
+  "name": "@lukasz/barabash",
+  "version": "1.0.0",
+  "dependencies": {
+    "@lukasz/moron": "^0.2.0"
+  },
+  "devDependencies": {
+    "@lukasz/simon": "^0.2.0",
+  }
+}

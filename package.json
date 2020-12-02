@@ -2,7 +2,7 @@
   "name": "@lukasz/barabash",
   "version": "1.0.0",
   "dependencies": {
-    "@lukasz/moron": "^0.2.0"
+    "@asyncapi/generator": "0.36.4"
   },
   "devDependencies": {
     "@lukasz/simon": "^0.2.0"
